@@ -7,4 +7,5 @@ end
 lassie = Dog.new("Lassie", "Hound")
 puts lassie
 
-lassie = Dog.new("Lassie", "Hound")
+gook = Dog.new("Gook")
+puts gook
