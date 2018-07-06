@@ -1,8 +1,11 @@
 class Dog
-  def initialize(name, breed = "Mutt")
-    @name = name
+  def initialize(name_input, breed = "Mutt")
+    @name = name_input
     @breed = breed
   end
+  
+  def name=(name_input)
+    @name = name_input
 end
 lassie = Dog.new("Lassie", "Hound")
 puts lassie
